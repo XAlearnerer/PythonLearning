@@ -35,4 +35,4 @@ class Ship():
     def blitme(self):
         # 在指定位置放置飞船
         self.screen.blit(self.image, self.rect);
-        pygame.display.flip();
+        #pygame.display.flip();
